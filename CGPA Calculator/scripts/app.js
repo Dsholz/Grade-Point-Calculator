@@ -7,7 +7,7 @@ document.querySelector('#submit').addEventListener('click', (e) => {
   saveScores();
   generateScoreElement();
   clearScores();
-  clearScoreElement();
+  removeScoreElement();
 });
 
 document.querySelector('.addCourse').addEventListener('click', (e) => {
